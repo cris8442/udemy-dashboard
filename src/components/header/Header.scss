@@ -16,6 +16,12 @@
     font-family: var(--dashboard-font-bold);
     font-size: 1.25rem;
     letter-spacing: 0.3px;
+    align-items: center;
+    display: flex;
+    gap:4px;
+    img {
+        width: 40px;
+    }
   }
 
   &__nav {

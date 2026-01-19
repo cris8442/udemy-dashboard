@@ -1,0 +1,30 @@
+ @import "styles/variables.scss";
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url("fonts/HelveticaNeue.ttc");
+}
+
+@font-face {
+  font-family: 'Helvetica Medium';
+  src: url("fonts/HelveticaNeueLTStd-Md.otf");
+}
+
+@font-face {
+ font-family: 'Helvetica Bold';
+ src: url("fonts/HelveticaNeueLTStd-Bd.otf");
+}
+
+#root{
+  height: 100%;
+}
+
+html{
+  height: 100%
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  font-family: var(--dashboard-font);
+}

@@ -3,7 +3,7 @@ const API_BASE_URL = `https://api.coingecko.com/api/v3/`;
 export const FinancesApi = {
     getFinances: async () => {
         const response = await fetch(
-        `${API_BASE_URL}coins/ethereum/market_chart?vs_currency=eur&days=30`
+        `${API_BASE_URL}coins/ethereum/market_chart?vs_currency=eur&days=15`
         );
 
         if (!response.ok) {

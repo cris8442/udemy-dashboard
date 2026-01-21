@@ -19,6 +19,7 @@ export const FinancesProvider = ({ children }: ProviderProps) => {
             setError(null);
             const response = await FinancesApi.getFinances();
             setData(response);
+            return response;
         }catch(err: any) {
             setError("Error loading finances");
         }finally{

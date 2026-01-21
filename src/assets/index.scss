@@ -28,3 +28,9 @@ body{
   margin: 0;
   font-family: var(--dashboard-font);
 }
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
